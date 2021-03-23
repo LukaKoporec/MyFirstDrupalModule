@@ -21,3 +21,11 @@ module_hero_ajaxheroform:
     _title: 'Ajax hero form battle'
   requirements:
     _permission: 'access content'
+
+module_hero_confighero:
+  path: '/admin/hero'
+  defaults:
+    _form: '\Drupal\module_hero\Form\HeroConfigForm'
+    _title: 'My admin config'
+  requirements:
+    _permission: 'administer site configuration'
